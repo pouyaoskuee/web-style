@@ -1,4 +1,4 @@
-@import url(/font.css);
+@import url(/assets/css/font.css);
 
 /* RESET */
 *,
@@ -22,9 +22,31 @@
 /* TYPOGRAPHY */
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--font--primary);
-  font-size: 1rem;
+  font-size: 1.2rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font--primary);
+}
+
+h2,
+h3 {
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 576px) {
+  body {
+    font-size: 2rem;
+  }
+  h2,
+  h3 {
+    font-size: 4rem;
+  }
 }
