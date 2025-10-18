@@ -1,0 +1,30 @@
+@import url(/font.css);
+
+/* RESET */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+/* ROOT */
+:root {
+  --color-navbar--primary: #141414;
+  --color-navbar--secondary: #000;
+  --color-primary: #eec643;
+  --font--primary: "Yekan";
+}
+
+/* TYPOGRAPHY */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font--primary);
+  font-size: 1rem;
+}
