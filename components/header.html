@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Header</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <header class="main--navbar">
+      <nav class="nav">
+        <div class="nav__search">
+          <input type="text" />
+          <button type="submit" class="btn">
+            <img
+              src="/assets/Images/Nav-Bar/icons8-search2.svg"
+              alt="Search Icon SVG"
+            />
+          </button>
+        </div>
+        <div class="nav__logo">
+          <a href="#">
+            <img
+              src="/assets/Images/Nav-Bar/logo-nav-M.png"
+              alt="Web Site Icon"
+            />
+          </a>
+        </div>
+        <button id="menuButton" class="nav__toggler btn">
+          <img src="/assets/Images/Nav-Bar/icons8-menu.svg" alt="Menu Icon" />
+        </button>
+      </nav>
+    </header>
+    <div id="modalOverlay" class="overlay">
+      <div class="modal">
+        <div class="modal__icon">
+          <span class="close">&times;</span>
+          <span id="close" class="close">بستن</span>
+        </div>
+        <div class="modal__list">
+          <ul class="modal__list__items">
+            <li class="modal__list--item"><a href="#">صفحه اصلی</a></li>
+            <li class="modal__list--item"><a href="#">دسته بندی</a></li>
+            <li class="modal__list--item"><a href="#">حساب کاربری</a></li>
+            <li class="modal__list--item"><a href="#">سبد خرید</a></li>
+            <li class="modal__list--item">
+              <a href="#">پیشنهاد شگفت انگیز</a>
+            </li>
+            <li class="modal__list--item"><a href="#">درباره ما</a></li>
+            <li class="modal__list--item"><a href="#">علاقه مندی ها</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="/js/modal.js"></script>
+</html>
