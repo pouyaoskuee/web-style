@@ -137,6 +137,9 @@ h3 {
   background-color: white;
   box-shadow: -2px 0 10px rgba(0, 0, 0, 0.3);
   z-index: 1000;
+  overflow: hidden;
+  border-radius: 16px;
+  border-top-right-radius: 0;
 }
 
 /* .close {
@@ -150,10 +153,53 @@ h3 {
 .modal__icon {
   display: flex;
   align-items: center;
-  background-color:var(--color-primary) ;
+  background-color: var(--color-primary);
+}
+
+.modal__icon .close {
+  display: inline-block;
+  padding-left: 3rem;
 }
 
 .modal__icon #close {
   display: block;
+  padding: 0.5rem;
   margin-left: 1rem;
+}
+
+.modal__list {
+  padding: 1rem 0.5rem 3rem 0.5rem;
+}
+
+.modal__list__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal__list__items:first-child{
+  focus
+}
+
+.modal__list--item {
+  width: 100%;
+}
+
+.modal__list--item a {
+  padding: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  display: block;
+  font-family: var(--font--primary);
+  font-weight: 700;
+  color: var(--color-navbar--secondary);
+}
+
+.modal__list--item a:focus {
+  background-color: var(--color-navbar--primary);
+  color: var(--color-white);
+  border: none;
 }
