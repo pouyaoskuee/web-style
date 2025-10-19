@@ -178,10 +178,6 @@ h3 {
   justify-content: center;
 }
 
-.modal__list__items:first-child{
-  focus
-}
-
 .modal__list--item {
   width: 100%;
 }
