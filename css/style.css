@@ -231,4 +231,28 @@ h3 {
     }
 }
 
+.best__seller{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.best__seller--title{
+    background: var(--color-navbar--secondary);
+    border-radius: 50px;
+    transform: rotate(-90deg);
+
+
+}
+
+.best__seller p{
+    color: var(--color-white);
+}
+
+.best__seller__content{
+    background-image: url("/assets/images/best-seller/best-seller.png");
+    width: 100%;
+    height: 49rem;
+}
+
 
