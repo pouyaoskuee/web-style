@@ -208,6 +208,7 @@ h3 {
 }
 
 @media (min-width: 576px) {
+<<<<<<< HEAD
   .about__container {
     display: flex;
     flex-direction: row;
@@ -216,6 +217,23 @@ h3 {
 }
 
 /* FOOTER */
+=======
+    .about__container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 7rem;
+
+    }
+    .about--line{
+        background: var(--color-navbar--secondary);
+        width: 21.5rem;
+        height: 0.2rem;
+        display: block;
+    }
+}
+
+>>>>>>> e8cfdfc9737a40089b4523ce2c1714792cf9e8b9
 
 .footer {
   display: flex;
